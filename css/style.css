@@ -1,0 +1,117 @@
+body{
+    margin: 30px 100px 160px 500px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+}
+.p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 280px;
+    color: rgb(114, 128, 167);
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+.container{
+    width: 352px;
+    height: 567px;
+    background-color: white;
+    border-radius: 15px;
+}
+.top-img{
+    width: 352px;
+    height: 170px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.payment-plan{
+    width: 303px;
+    height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    top: 14px;
+    left: 25px;
+    border-radius: 15px;
+}
+.music-icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 800;
+    position: relative;
+    bottom: 53px;
+    left: 90px;
+}
+.price{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(114, 128, 167);
+    position: relative;
+    bottom: 64px;
+    left: 89px;
+}
+.change{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    position: relative;
+    bottom: 110px;
+    left: 222px;
+}
+.change:hover{
+    color: rgb(139, 130, 237);
+    text-decoration: none;
+}
+button{
+    width: 280px;
+    height: 42px;
+    position: relative;
+    top: 43px;
+    left: 35px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: hsl(245, 57%, 67%);
+}
+.cancel{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(114, 128, 167);
+    position: relative;
+    top: 55px;
+    left: 125px;
+}
+.cancel:hover{
+    color: black;
+}
+.attribution{
+    color: black;
+    position: relative;
+    right: 200px;
+    top: 20px;
+    
+}
